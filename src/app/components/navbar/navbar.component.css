@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px #000000;
+    background-color: #0672479f;
+    color: white;
+    justify-content: center;
+  }
+
+.title-nav {
+    position: absolute;
+    text-shadow: 5px 5px 5px #000000;
+    font-weight: bold;
+  }
+
+.link {
+    margin-left: 80%;
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+  }
