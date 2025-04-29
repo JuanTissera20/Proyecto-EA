@@ -1,22 +1,40 @@
+@font-face {
+  font-family: 'MiFuentePersonalizada';
+  src: url('../../../assets/fonts/LEMONMILK-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 nav {
-    display: flex;
-    margin: auto;
-    padding: 1rem;
-    box-shadow: 5px 5px 5px #000000;
-    background-color: #0672479f;
-    color: white;
-    justify-content: center;
-  }
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 1%;
+  box-shadow: 5px 5px 5px #000000;
+  background-color: #0672479f;
+  color: white;
+}
+
+img{
+  display: flex;
+  width: 5%;
+}
+
 
 .title-nav {
-    position: absolute;
+    font-family:'LEMONMILK-Regular.otf', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
     text-shadow: 5px 5px 5px #000000;
     font-weight: bold;
+    cursor: pointer;
   }
 
 .link {
-    margin-left: 80%;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     display: flex;
+    margin-left: auto;
     gap: 1rem;
+    justify-content: end;
     cursor: pointer;
   }

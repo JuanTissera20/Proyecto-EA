@@ -1,7 +1,10 @@
 <nav>
-    <div class="title-nav">Ejército Argentino</div>
+  <img src="../../../assets/img/LogoEA.png"/>
+    <div (click)="redirectTo('home')" class="title-nav">EJERCITO ARGENTINO</div>
+    <img style="width: 50px; justify-content: center; display: flex; margin: auto;" src="../../../assets/img/462309833_8342965265738696_1246949391982453257_n.png"/>
     <div class="link">
-      <a routerLink="/unidad-info" routerLinkActive="activo" style="color: white; text-decoration: none;">Unidad</a>
-      <a routerLink="/inscripcion" routerLinkActive="activo" style="color: white; text-decoration: none;">Inscripción</a>
+      <a (click)="redirectTo('unidad')" style="color: white; text-decoration: none;">Unidad</a>
+      <a (click)="redirectTo('inscripcion')" style="color: white; text-decoration: none;">Inscripción</a>
     </div>
+
   </nav>
